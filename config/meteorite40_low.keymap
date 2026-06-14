@@ -89,11 +89,11 @@
 //            layers = <0>;
 //        };
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <20 21>; /* Z + X */
-            layers = <0>;
-        };
+//        esc {
+//            bindings = <&kp ESCAPE>;
+//            key-positions = <20 21>; /* Z + X */
+//            layers = <0>;
+//        };
 
         tab {
             bindings = <&kp TAB>;
