@@ -89,17 +89,42 @@
 //            layers = <0>;
 //        };
 
-//        esc {
-//            bindings = <&kp ESCAPE>;
-//            key-positions = <20 21>; /* Z + X */
+//		esc {
+//			bindings = <&kp ESCAPE>;
+//			key-positions = <1 2>; // W + E
+//			layers = <0>;
+//		};
+
+//        tab {
+//            bindings = <&kp TAB>;
+//            key-positions = <11 12>; // S + D
 //            layers = <0>;
 //        };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <0 1>; /* Q + W */
-            layers = <0>;
-        };
+//        up {
+//            bindings = <&kp UP>;
+//            key-positions = <7 8>; // I + O
+//            layers = <0>;
+//        };
+
+//        down {
+//            bindings = <&kp DOWN>;
+//            key-positions = <29 30>; // , + .
+//            layers = <0>;
+//        };
+
+//        left {
+//            bindings = <&kp LEFT>;
+//            key-positions = <16 17>; // J + K
+//            layers = <0>;
+//        };
+
+//        right {
+//            bindings = <&kp RIGHT>;
+//            key-positions = <18 19>; // L + -
+//            layers = <0>;
+//        };
+
 
 //        line_home {
 //            bindings = <&mosk HOME LG(LEFT)>;
