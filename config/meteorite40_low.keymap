@@ -77,18 +77,6 @@
     combos {
         compatible = "zmk,combos";
 
-//        lang1 {
-//            bindings = <&kp LANG1>;
-//            key-positions = <12 13>; /* D + F */
-//           layers = <0>;
-//        };
-
-//       lang2 {
-//            bindings = <&kp LANG2>;
-//            key-positions = <16 17>; /* J + K */
-//            layers = <0>;
-//        };
-
 //		esc {
 //			bindings = <&kp ESCAPE>;
 //			key-positions = <1 2>; // W + E
@@ -123,31 +111,6 @@
 //            bindings = <&kp RIGHT>;
 //            key-positions = <18 19>; // L + -
 //            layers = <0>;
-//        };
-
-
-//        line_home {
-//            bindings = <&mosk HOME LG(LEFT)>;
-//            key-positions = <16 17>; /* J + K (on layer 2) */
-//            layers = <2>;
-//        };
-
-//        line_end {
-//            bindings = <&mosk END LG(RIGHT)>;
-//            key-positions = <18 19>; /* L + - (on layer 2) */
-//            layers = <2>;
-//        };
-
-//        doc_home {
-//            bindings = <&mosk LC(HOME) LG(UP)>;
-//            key-positions = <16 18>; /* J + L (on layer 2) */
-//            layers = <2>;
-//        };
-
-//        doc_end {
-//            bindings = <&mosk LC(END) LG(DOWN)>;
-//            key-positions = <17 19>; /* K + - (on layer 2) */
-//            layers = <2>;
 //        };
     };
 
