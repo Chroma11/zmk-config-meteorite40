@@ -86,32 +86,42 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>; /* Z + X */
             layers = <0>;
+            timeout-ms = <60>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>; /* Q + W */
             layers = <0>;
+            timeout-ms = <60>;
         };
 
         Up {
             bindings = <&kp UP>;
-            key-positions = <7 8>;
+            key-positions = <7 6>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         Down {
             bindings = <&kp DOWN>;
-            key-positions = <29 30>;
+            key-positions = <16 17>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         Left {
             bindings = <&kp LEFT>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         Right {
             bindings = <&kp RIGHT>;
-            key-positions = <18 19>;
+            key-positions = <18 17>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
     };
 
@@ -145,10 +155,10 @@
         default_layer {
             display-name = "BASE";
             bindings = <
-&lt 3 Q             &kp W    &kp E          &kp R                  &kp T                  &kp Y      &kp U      &kp I         &kp O  &kp P
-&mt LEFT_COMMAND A  &kp S    &kp D          &mt LEFT_COMMAND F     &kp G                  &kp H      &kp J      &kp K         &kp L  &kp MINUS
-&mt LEFT_SHIFT Z    &kp X    &kp C          &mt LEFT_COMMAND V     &kp B                  &mkp MB1   &mkp MB2   &kp N         &kp M  &kp COMMA  &kp DOT  &mt LEFT_SHIFT SLASH
-&lt 4 LEFT_GUI      &kp DEL  &kp BACKSPACE  &lt 1 INTERNATIONAL_5  &lt 2 INTERNATIONAL_4  &kp SPACE  &kp ENTER  &kp LEFT_ALT
+&lt 3 Q           &kp W    &kp E          &kp R                  &kp T                  &kp Y      &kp U               &kp I         &kp O  &kp P
+&kp A             &kp S    &kp D          &mt LEFT_COMMAND F     &kp G                  &kp H      &mt LEFT_COMMAND J  &kp K         &kp L  &kp MINUS
+&mt LEFT_SHIFT Z  &kp X    &kp C          &kp V                  &kp B                  &mkp MB1   &mkp MB2            &kp N         &kp M  &mt LEFT_ALT COMMA  &mt LCTRL DOT  &mt LEFT_SHIFT SLASH
+&lt 4 LEFT_GUI    &kp DEL  &kp BACKSPACE  &lt 1 INTERNATIONAL_5  &lt 2 INTERNATIONAL_4  &kp SPACE  &kp ENTER           &kp LEFT_ALT
             >;
         };
 
